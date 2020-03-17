@@ -46,4 +46,9 @@ public class LoginController {
         return "redirect:/admin";
     }
 
+    @GetMapping("/nopower")
+    public String noPower(HttpSession session){
+        return "error/nopower";
+    }
+
 }

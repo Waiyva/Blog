@@ -18,4 +18,14 @@ logging:
 
 
 
+org:
+  jcasbin:
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    model-path: conf/authz_model.conf
+    policy-path: conf/authz_policy.csv
+
+
 

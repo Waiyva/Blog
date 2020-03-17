@@ -2,7 +2,7 @@
 
 **技术**
 
-+ 前端：Semantic UI  live2d
++ 前端：Semantic UI + live2d
 + 后端：Spring Boot + JPA + thymeleaf
 + 数据库：MySQL
 + 权限控制：JCasbin
